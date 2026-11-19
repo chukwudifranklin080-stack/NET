@@ -4,3 +4,37 @@ document.querySelector("#footer").innerHTML=`<footer><div class="wrap"><div clas
 const toggle=document.querySelector(".toggle");toggle.addEventListener("click",()=>{const n=document.querySelector(".links");n.classList.toggle("open");toggle.setAttribute("aria-expanded",String(n.classList.contains("open")));toggle.textContent=n.classList.contains("open")?"✕":"☰";});
 document.querySelectorAll(".question").forEach(b=>b.addEventListener("click",()=>b.parentElement.classList.toggle("open")));
 document.querySelectorAll(".demoform").forEach(f=>f.addEventListener("submit",e=>{e.preventDefault();if(!f.reportValidity())return;f.querySelector(".feedback").textContent="Thank you. This demo form validates in your browser but is not connected to an inbox or database. Connect a secure backend before launch.";f.reset();}));
+
+// ECN PRELOADER SCRIPT
+
+(() => {
+    const loader = document.getElementById("ecnPreloader");
+
+    if (!loader) return;
+
+    let done = false;
+
+    function hideLoader() {
+        if (done) return;
+
+        done = true;
+
+        loader.classList.add("ecn-loaded");
+
+        setTimeout(() => {
+            loader.remove();
+        }, 550);
+    }
+
+    if (document.readyState === "complete") {
+        setTimeout(hideLoader, 200);
+    } else {
+        window.addEventListener("load", () => {
+            setTimeout(hideLoader, 200);
+        }, { once: true });
+    }
+
+    // Safety fallback after 6 seconds
+    setTimeout(hideLoader, 6000);
+
+})();
