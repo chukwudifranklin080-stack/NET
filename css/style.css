@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+:root{--n:#071c58;--b:#0755d9;--g:#ffc400;--ink:#17264a;--muted:#68758e;--line:#dce5f5}*{box-sizing:border-box}body{margin:0;background:#f8faff;color:var(--ink);font:16px 'DM Sans',sans-serif;line-height:1.65}a{text-decoration:none;color:inherit}.top{background:var(--n);color:white;padding:8px 5%;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.88rem}.top b{color:var(--g)}header{background:white;position:sticky;top:0;z-index:8;box-shadow:0 4px 18px #071c5818}.nav{max-width:1200px;margin:auto;padding:13px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px;color:var(--n)}.logo{width:55px;height:55px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(140deg,#0875ff,var(--n));border:3px solid var(--g);color:var(--g);font-weight:900}.brand strong{font:800 1rem/1.1 'Playfair Display';display:block}.brand small{font-size:.7rem;color:#927000;font-style:italic}.links{display:flex;gap:3px;flex-wrap:wrap}.links a{font-size:.82rem;font-weight:700;padding:9px;border-radius:8px;color:var(--n)}.links a:hover,.links a.active{background:var(--b);color:white}.toggle{display:none;background:var(--n);color:white;border:0;border-radius:8px;padding:9px 12px}.hero{min-height:470px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,#04164df5,#092d75d9 45%,#092d7520),url('../assets/learning-and-connectivity.jpg') center/cover}.hero-in{width:min(1150px,92%);margin:auto;padding:60px 0}.eyebrow{color:var(--g);font-weight:800;text-transform:uppercase;letter-spacing:2px}.hero h1{font:800 clamp(2.3rem,5vw,4.2rem)/1.08 'Playfair Display';max-width:700px;margin:12px 0}.hero h1 em{color:var(--g);font-style:normal}.hero p{max-width:590px;font-size:1.1rem;color:#eef4ff}.btn{display:inline-block;background:var(--g);color:#091d55;font-weight:800;padding:11px 20px;border-radius:99px;border:2px solid var(--g);margin:8px 8px 0 0;cursor:pointer}.btn.outline{background:transparent;color:white;border-color:white}.btn.blue{background:var(--b);border-color:var(--b);color:white}.wrap{width:min(1120px,92%);margin:auto}.features{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:25px auto}.feature,.card,.panel{background:white;border:1px solid var(--line);border-radius:15px;padding:22px;box-shadow:0 9px 28px #071c580c}.feature{text-align:center}.feature .ico{font-size:1.8rem}.feature h3,.card h3{color:var(--n);margin:6px 0}.feature p,.card p{color:var(--muted);margin:0}.section{padding:44px 0}.tint{background:#edf3ff}.heading{text-align:center;margin-bottom:25px}.heading h2,.copy h2,.pagehead h1{font:700 clamp(1.9rem,3vw,2.6rem) 'Playfair Display';color:var(--n);margin:7px 0}.heading p{max-width:690px;margin:auto;color:var(--muted)}.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.photo{overflow:hidden;border:6px solid white;border-radius:17px;box-shadow:0 12px 30px #071c581c}.photo img{width:100%;height:340px;object-fit:cover}.copy p{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.pagehead{background:linear-gradient(110deg,var(--n),#0755b8);color:white;padding:48px 0}.pagehead h1{color:white;margin:0}.pagehead p{margin:5px 0;color:#dce9ff}.content{padding:38px 0}.tag{display:inline-block;background:#fff2bd;color:#6b5100;border-radius:99px;padding:4px 12px;font-size:.82rem;font-weight:800}.checks{padding-left:20px;color:var(--muted)}.contactgrid{display:grid;grid-template-columns:.85fr 1.15fr;gap:20px}.dark{background:var(--n);color:white;border-radius:15px;padding:25px}.dark h2{color:var(--g);font-family:'Playfair Display'}.dark p{color:#e4edff}.panel h2{font:700 1.4rem 'Playfair Display';color:var(--n)}.formrow{display:grid;grid-template-columns:1fr 1fr;gap:13px}label{display:block;margin:12px 0 5px;color:var(--n);font-weight:700}input,select,textarea{width:100%;padding:11px;border:1px solid #cbd6e8;border-radius:8px;font:inherit}textarea{min-height:110px}input:focus,select:focus,textarea:focus{outline:3px solid #ffe58b}.notice{background:#fff8dd;border-left:4px solid var(--g);padding:12px 15px;border-radius:7px;color:#5d4b12}.map{width:100%;height:410px;border:0;border-radius:15px}.faq{background:white;border:1px solid var(--line);border-radius:10px;margin:10px 0;overflow:hidden}.question{width:100%;text-align:left;border:0;background:white;padding:16px;font:700 1rem 'DM Sans';color:var(--n);cursor:pointer}.answer{display:none;padding:0 16px 16px;color:var(--muted)}.faq.open .answer{display:block}.legal h2{font:700 1.3rem 'Playfair Display';color:var(--n);margin-top:24px}.legal p{color:var(--muted)}footer{background:#061943;color:white;margin-top:35px;padding:38px 0 15px}.foot{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:24px}.foot h3{color:var(--g);font-family:'Playfair Display'}.foot p,.foot a{color:#dbe5ff;font-size:.9rem}.foot a{display:block;margin:6px 0}.copyr{border-top:1px solid #304a7b;text-align:center;margin-top:24px;padding-top:14px;color:#cbd7f0;font-size:.85rem}@media(max-width:920px){.nav{flex-wrap:wrap}.toggle{display:block}.links{display:none;width:100%;flex-direction:column}.links.open{display:flex}.links a{padding:11px}.features{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:repeat(2,1fr)}.foot{grid-template-columns:repeat(2,1fr)}}@media(max-width:640px){.hero{min-height:410px}.features,.cards,.two,.contactgrid,.formrow,.foot{grid-template-columns:1fr}.photo img{height:250px}.pagehead h1{font-size:2rem}.brand strong{font-size:.9rem}}
+/* Consistent site-wide page backgrounds */
+body {
+  background:
+    radial-gradient(circle at 8% 4%, rgba(25,185,239,.08), transparent 26rem),
+    linear-gradient(180deg, #f4f8ff 0%, #ffffff 48%, #edf3ff 100%);
+  background-attachment: fixed;
+}
+.focus-banner {
+    width: 100%;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.focus-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .focus-banner {
+        border-radius: 12px;
+        margin: 20px auto;
+    }
+}
+main { min-height: 60vh; }
+.content { background: transparent; }
+.section { background-color: transparent; }
+.section.tint { background: linear-gradient(135deg, #e8f1ff 0%, #f4f8ff 100%); }
+.panel, .card, .feature { background-color: rgba(255,255,255,.96); }
+.pagehead { background: linear-gradient(115deg, #061943 0%, #0755b8 65%, #19aee7 100%); }
